@@ -4,11 +4,10 @@ namespace CinemaPack\Mapper;
 
 use CinemaPack\Contracts\CinemaImageMapperInterface;
 use CinemaPack\Enum\CinemaIdEnum;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class CinemaImageMapper implements CinemaImageMapperInterface
 {
-    public function mapIdToImageUrl(CinemaIdEnum $id): UploadedFile
+    public function mapIdToImageUrl(CinemaIdEnum $id): string
     {
         $fileName = match ($id) {
             // Sweden
@@ -117,8 +116,6 @@ class CinemaImageMapper implements CinemaImageMapperInterface
             CinemaIdEnum::GB_CINEWORLD => 'cineworld.png',
         };
 
-        $filePath = __DIR__ . '/../Resources/public/images/' . $fileName;
-
-        return new UploadedFile($filePath, $fileName);
+        return "/bundles/cinemapack/$fileName";
     }
 }

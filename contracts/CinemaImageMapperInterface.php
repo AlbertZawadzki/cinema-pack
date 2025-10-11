@@ -7,5 +7,5 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 interface CinemaImageMapperInterface
 {
-    public function mapIdToImageUrl(CinemaIdEnum $id): UploadedFile;
+    public function mapIdToImageUrl(CinemaIdEnum $id): string;
 }
