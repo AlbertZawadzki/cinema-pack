@@ -19,7 +19,7 @@ class CinemaCountryMapper implements CinemaCountryMapperInterface
     public function mapIdToCountry(CinemaIdEnum $id): ?CountryDto
     {
         $key = substr($id->value, 0, 2);
-        $isoCode = Iso31661Alpha2::tryFrom($key);
+        $isoCode = Iso31661Alpha2::tryFrom(strtoupper($key));
 
         if (!$isoCode) {
             return null;
