@@ -33,4 +33,5 @@ enum CinemaIdEnum: string
     case IE_CINEMA_KILLARNEY = 'cinema-killarney';
     case IE_ODEON = 'ie-odeon';
     case IE_EYE_CINEMA = 'eye-cinema';
+    case LU_KINEPOLIS = 'lu-kinepolis';
 }
