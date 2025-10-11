@@ -19,6 +19,7 @@ enum CinemaIdEnum: string
     case UK_SHOWCASE = 'Showcase';
     case UK_CINEWORLD = 'Cineworld';
     case IE_IMC = 'IMC cinemas';
+    case DK_VUE = 'dk-vue';
     case IE_IMC = 'imc-cinemas';
     case IE_GATE_CINEMA = 'gate-cinema';
     case IE_ARC_CINEMA = 'the-arc-cinema';
