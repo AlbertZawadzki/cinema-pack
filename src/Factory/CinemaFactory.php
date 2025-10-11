@@ -28,13 +28,15 @@ class CinemaFactory
         $url = $this->urlMapper->mapIdToUrl($id);
         $image = $this->imageMapper->mapIdToImageUrl($id);
         $country = $this->countryMapper->mapIdToCountry($id);
+        $cities = $this->cityMapper->mapIdToCities($id);
 
         return new CinemaDto(
             $id,
             $country,
             $name,
             $url,
-            $image
+            $image,
+            $cities,
         );
     }
 }

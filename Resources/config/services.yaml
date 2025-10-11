@@ -10,6 +10,9 @@ services:
   CinemaPack\Contracts\CinemaCountryMapperInterface:
     class: 'CinemaPack\Mapper\CinemaCountryMapper'
 
+  CinemaPack\Contracts\CinemaCityMapperInterface:
+    class: 'CinemaPack\Mapper\CinemaCityMapper'
+
   CinemaPack\Contracts\CinemaImageMapperInterface:
     class: 'CinemaPack\Mapper\CinemaImageMapper'
 
