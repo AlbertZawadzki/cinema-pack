@@ -36,4 +36,11 @@ enum CinemaIdEnum: string
     case LU_KINEPOLIS = 'lu-kinepolis';
     case BE_PATHE = 'be-pathe';
     case BE_KINEPOLIS = 'be-kinepolis';
+    case NL_C_CINEMA = 'c-cinema';
+    case NL_KOK_CINEMAXX = 'kok-cinemaxx';
+    case NL_DAVINCI_GOES = 'davinci-goes';
+    case NL_CINECITY = 'cinecity';
+    case NL_PATHE = 'pathe';
+    case NL_VUE = 'vue';
+    case NL_KINEPOLIS = 'kinepolis';
 }
