@@ -45,4 +45,22 @@ enum CinemaIdEnum: string
     case NL_VUE = 'nl-vue';
     case NL_KINEPOLIS = 'nl-kinepolis';
     case SE_FILMSTADEN = 'se-filmstaden';
+    case NO_GRIMSTAD_KULTURHUS = 'no-grimstad-kulturhus';
+    case NO_RAKKESTAD_KULTURHUS = 'no-rakkestad-kulturhus';
+    case NO_AL_KULTURHUS = 'no-al-kulturhus';
+    case NO_GJOVIK_CINEMA = 'no-gjovik-cinema';
+    case NO_HITRA_KINO = 'no-hitra-kino';
+    case NO_NES_KULTURHUS = 'no-nes-kulturhus';
+    case NO_HAMAR_KINO = 'no-hamar-kino';
+    case NO_LILLEHAMMER_KINO = 'no-lillehammer-kino';
+    case NO_HURTIGRUTENS_HUS = 'no-hurtigrutens-hus';
+    case NO_TRONDHEIM_KINO = 'no-trondheim-kino';
+    case NO_NORDISK_FILM = 'no-nordisk-film-kino';
+    case NO_TYSVERTUNET_KULTURHUS = 'no-tysvertunet-kulturhus';
+    case NO_STOREN = 'no-storen';
+    case NO_HJERTES_KULTURHUS = 'no-hjertes-kulturhus';
+    case NO_FELIX = 'no-felix';
+    case NO_FREDIKSTAD_KINO = 'no-fredikstad-kino';
+    case NO_CINEMATEKET_BERGEN = 'no-cinemateket-i-bergen';
+    case NO_ODEON = 'no-odeon';
 }
