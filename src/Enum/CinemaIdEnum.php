@@ -34,4 +34,6 @@ enum CinemaIdEnum: string
     case IE_ODEON = 'ie-odeon';
     case IE_EYE_CINEMA = 'eye-cinema';
     case LU_KINEPOLIS = 'lu-kinepolis';
+    case BE_PATHE = 'be-pathe';
+    case BE_KINEPOLIS = 'be-kinepolis';
 }
