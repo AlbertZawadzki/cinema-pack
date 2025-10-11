@@ -30,7 +30,7 @@ class CinemaNameMapper implements CinemaNameMapperInterface
             CinemaIdEnum::NO_HJERTNES_KULTURHUS => 'Hjertnes kulturhus',
             CinemaIdEnum::NO_FELIX => 'Felix',
             CinemaIdEnum::NO_FREDIKSTAD_KINO => 'Fredikstad kino',
-            CinemaIdEnum::NO_CINEMATEKET_BERGEN => 'Cinemateket i bergen',
+            CinemaIdEnum::NO_CINEMATEKET_BERGEN => 'Cinemateket bergen',
             CinemaIdEnum::NO_ODEON => 'Odeon',
 
             // Netherlands
