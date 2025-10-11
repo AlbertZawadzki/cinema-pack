@@ -4,6 +4,7 @@ namespace CinemaPack\Enum;
 
 enum CinemaIdEnum: string
 {
+    case IS_BIO_PARADIS = 'is-bio-paradis';
     case DK_VUE = 'dk-vue';
     case UK_BACKLOT = 'uk-the-backlot-cinema';
     case UK_ARC = 'uk-the-arc';
