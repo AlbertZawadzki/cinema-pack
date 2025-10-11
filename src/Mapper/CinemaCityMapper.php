@@ -27,7 +27,7 @@ class CinemaCityMapper implements CinemaCityMapperInterface
             CinemaIdEnum::NO_NORDISK_FILM => ['Oslo', 'Bergen', 'Stavanger', 'Kristiansand'],
             CinemaIdEnum::NO_TYSVERTUNET_KULTURHUS => ['Aksdal'],
             CinemaIdEnum::NO_STOREN => ['Støren'],
-            CinemaIdEnum::NO_HJERTES_KULTURHUS => ['Sandefjord'],
+            CinemaIdEnum::NO_HJERTNES_KULTURHUS => ['Sandefjord'],
             CinemaIdEnum::NO_FELIX => [],
             CinemaIdEnum::NO_FREDIKSTAD_KINO => ['Fredrikstad'],
             CinemaIdEnum::NO_CINEMATEKET_BERGEN => ['Bergen'],

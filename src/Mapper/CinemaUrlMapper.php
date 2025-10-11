@@ -27,7 +27,7 @@ class CinemaUrlMapper implements CinemaUrlMapperInterface
             CinemaIdEnum::NO_NORDISK_FILM => 'https://www.nfkino.no',
             CinemaIdEnum::NO_TYSVERTUNET_KULTURHUS => 'https://www.tysvertunet.kulturhus.no',
             CinemaIdEnum::NO_STOREN => 'https://www.storenkulturhus.no',
-            CinemaIdEnum::NO_HJERTES_KULTURHUS => 'https://www.hjertnes.no',
+            CinemaIdEnum::NO_HJERTNES_KULTURHUS => 'https://www.hjertnes.no',
             CinemaIdEnum::NO_FELIX => 'https://ebillett.no',
             CinemaIdEnum::NO_FREDIKSTAD_KINO => 'https://www.fredrikstadkino.no',
             CinemaIdEnum::NO_CINEMATEKET_BERGEN => 'https://cinemateketbergen.ticketco.events',

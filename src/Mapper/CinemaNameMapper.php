@@ -27,7 +27,7 @@ class CinemaNameMapper implements CinemaNameMapperInterface
             CinemaIdEnum::NO_NORDISK_FILM => 'Nordisk Film Kino',
             CinemaIdEnum::NO_TYSVERTUNET_KULTURHUS => 'Tysvertunet Kulturhus',
             CinemaIdEnum::NO_STOREN => 'Storen',
-            CinemaIdEnum::NO_HJERTES_KULTURHUS => 'Hjertes kulturhus',
+            CinemaIdEnum::NO_HJERTNES_KULTURHUS => 'Hjertnes kulturhus',
             CinemaIdEnum::NO_FELIX => 'Felix',
             CinemaIdEnum::NO_FREDIKSTAD_KINO => 'Fredikstad kino',
             CinemaIdEnum::NO_CINEMATEKET_BERGEN => 'Cinemateket i bergen',

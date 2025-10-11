@@ -58,7 +58,7 @@ enum CinemaIdEnum: string
     case NO_NORDISK_FILM = 'no-nordisk-film-kino';
     case NO_TYSVERTUNET_KULTURHUS = 'no-tysvertunet-kulturhus';
     case NO_STOREN = 'no-storen';
-    case NO_HJERTES_KULTURHUS = 'no-hjertes-kulturhus';
+    case NO_HJERTNES_KULTURHUS = 'no-hjertnes-kulturhus';
     case NO_FELIX = 'no-felix';
     case NO_FREDIKSTAD_KINO = 'no-fredikstad-kino';
     case NO_CINEMATEKET_BERGEN = 'no-cinemateket-i-bergen';

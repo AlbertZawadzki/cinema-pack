@@ -27,7 +27,7 @@ class CinemaImageMapper implements CinemaImageMapperInterface
             CinemaIdEnum::NO_NORDISK_FILM => 'https://www.nfkino.no/themes/custom/nfbionosub/logo.svg',
             CinemaIdEnum::NO_TYSVERTUNET_KULTURHUS => 'https://dx-cw-static-files.imgix.net/122/tysvertunet-logo-hvit.png',
             CinemaIdEnum::NO_STOREN => 'https://dx-cw-static-files.imgix.net/184/sk-logo-full-1000px.svg',
-            CinemaIdEnum::NO_HJERTES_KULTURHUS => null,
+            CinemaIdEnum::NO_HJERTNES_KULTURHUS => null,
             CinemaIdEnum::NO_FELIX => 'https://ebillett.no/images/ebillett-logo.svg',
             CinemaIdEnum::NO_FREDIKSTAD_KINO => 'https://dx-cw-static-files.imgix.net/178/fredrikstad-kino-hvit-web.png',
             CinemaIdEnum::NO_CINEMATEKET_BERGEN => 'https://tuploads.s3.eu-west-1.amazonaws.com/production/uploads/branding/header_logo_image/36532/Logo-Cinemateket-hvit-transp_png.png',
