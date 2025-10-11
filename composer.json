@@ -5,7 +5,8 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "CinemaPack\\": "src/"
+      "CinemaPack\\": "src/",
+      "CinemaPack\\Contracts\\": "contracts/"
     }
   },
   "require": {

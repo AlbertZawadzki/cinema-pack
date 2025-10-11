@@ -6,3 +6,15 @@ services:
 
   CinemaPack\:
     resource: '../../src/'
+
+  CinemaPack\Contracts\CinemaCountryMapperInterface:
+    class: 'CinemaPack\Mapper\CinemaCountryMapper'
+
+  CinemaPack\Contracts\CinemaImageMapperInterface:
+    class: 'CinemaPack\Mapper\CinemaImageMapper'
+
+  CinemaPack\Contracts\CinemaNameMapperInterface:
+    class: 'CinemaPack\Mapper\CinemaNameMapper'
+
+  CinemaPack\Contracts\CinemaUrlMapperInterface:
+    class: 'CinemaPack\Mapper\CinemaUrlMapper'
