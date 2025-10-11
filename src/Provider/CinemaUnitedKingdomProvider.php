@@ -15,7 +15,8 @@ class CinemaUnitedKingdomProvider
     {
     }
 
-    public function getAll()
+    /** @return CinemaDto[] */
+    public function getAll(): array
     {
         $country = $this->countryProvider->getByIso31661Alpha2(Iso31661Alpha2::GB);
 
