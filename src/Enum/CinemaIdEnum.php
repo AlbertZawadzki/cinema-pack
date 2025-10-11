@@ -64,7 +64,7 @@ enum CinemaIdEnum: string
     case NO_CINEMATEKET_BERGEN = 'no-cinemateket-i-bergen';
     case NO_ODEON = 'no-odeon';
     case DE_SOEST_UNIVERSUM = 'de-soest-universum';
-    case DE_KINOPLAST = 'de-kinoplast';
+    case DE_KINOPALAST = 'de-kinopalast';
     case DE_FILMFORUM = 'de-filmforum';
     case DE_KINO_BOIZENBURG = 'de-kino-boizenburg';
     case DE_KINORAMA_UNNA = 'de-kinorama-unna';

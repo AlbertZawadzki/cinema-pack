@@ -66,7 +66,7 @@ class CinemaUrlMapper implements CinemaUrlMapperInterface
 
             // Germany
             CinemaIdEnum::DE_SOEST_UNIVERSUM => 'https://universum-soest.com',
-            CinemaIdEnum::DE_KINOPLAST => 'https://kino-weil.de',
+            CinemaIdEnum::DE_KINOPALAST => 'https://kino-weil.de',
             CinemaIdEnum::DE_FILMFORUM => 'https://filmforum-schwedt.de',
             CinemaIdEnum::DE_KINO_BOIZENBURG => 'https://www.kino-boizenburg.de',
             CinemaIdEnum::DE_KINORAMA_UNNA => 'https://www.kino-unna.de',

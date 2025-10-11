@@ -66,7 +66,7 @@ class CinemaCityMapper implements CinemaCityMapperInterface
 
             // Germany (Expanded Lists)
             CinemaIdEnum::DE_SOEST_UNIVERSUM => ['Soest'],
-            CinemaIdEnum::DE_KINOPLAST => ['Weil am Rhein'],
+            CinemaIdEnum::DE_KINOPALAST => ['Weil am Rhein'],
             CinemaIdEnum::DE_FILMFORUM => ['Schwedt'],
             CinemaIdEnum::DE_KINO_BOIZENBURG => ['Boizenburg'],
             CinemaIdEnum::DE_KINORAMA_UNNA => ['Unna'],

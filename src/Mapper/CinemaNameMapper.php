@@ -66,7 +66,7 @@ class CinemaNameMapper implements CinemaNameMapperInterface
 
             // Germany
             CinemaIdEnum::DE_SOEST_UNIVERSUM => 'Soest Universum',
-            CinemaIdEnum::DE_KINOPLAST => 'Kinoplast',
+            CinemaIdEnum::DE_KINOPALAST => 'Kinopalast',
             CinemaIdEnum::DE_FILMFORUM => 'FilmforUM',
             CinemaIdEnum::DE_KINO_BOIZENBURG => 'Kino Boizenburg',
             CinemaIdEnum::DE_KINORAMA_UNNA => 'Kinorama Unna',

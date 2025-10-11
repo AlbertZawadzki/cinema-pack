@@ -66,7 +66,7 @@ class CinemaImageMapper implements CinemaImageMapperInterface
 
             // Germany
             CinemaIdEnum::DE_SOEST_UNIVERSUM => 'https://cdn.cineweb.de/media/kinobilder/509/VvuLsMcyDvkpFJKLishWbJgMP6UEOuAJUpSFZxv2.png',
-            CinemaIdEnum::DE_KINOPLAST => null,
+            CinemaIdEnum::DE_KINOPALAST => null,
             CinemaIdEnum::DE_FILMFORUM => 'https://cdn.cineweb.de/media/kinobilder/664/5lEPzDiC8jlqBlliskSfyiTUaDc5PVNYHyYWTMn7.png?text=Logo',
             CinemaIdEnum::DE_KINO_BOIZENBURG => 'https://static.wixstatic.com/media/d66ed0_a49e45a4963348eaa993a61a30399111~mv2.png/v1/fill/w_981,h_123,al_c,lg_1,q_85,enc_avif,quality_auto/Kino_Banner_Boizenburg.png',
             CinemaIdEnum::DE_KINORAMA_UNNA => 'https://www.kino-unna.de/clients/69/img/logo.png',
