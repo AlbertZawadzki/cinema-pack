@@ -116,6 +116,6 @@ class CinemaImageMapper implements CinemaImageMapperInterface
             CinemaIdEnum::GB_CINEWORLD => 'cineworld.png',
         };
 
-        return "/bundles/cinemapack/$fileName";
+        return "/bundles/cinemapack/images/$fileName";
     }
 }
