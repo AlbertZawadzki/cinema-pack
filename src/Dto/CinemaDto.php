@@ -5,6 +5,7 @@ namespace CinemaPack\Dto;
 
 use CinemaPack\Enum\CinemaIdEnum;
 use CountryPack\Dto\CountryDto;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class CinemaDto
 {
@@ -13,7 +14,7 @@ class CinemaDto
         public CountryDto   $country,
         public string       $name,
         public ?string      $url,
-        public ?string      $imageUrl,
+        public UploadedFile $image,
         /**
          * @var string[] The list of cities where this cinema operates.
          *
