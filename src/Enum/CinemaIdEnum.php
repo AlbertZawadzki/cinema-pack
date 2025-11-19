@@ -44,6 +44,7 @@ enum CinemaIdEnum: string
     case NL_PATHE = 'nl-pathe';
     case NL_VUE = 'nl-vue';
     case NL_KINEPOLIS = 'nl-kinepolis';
+    case NL_CITYCINEMA = 'nl-citycinema';
     case SE_FILMSTADEN = 'se-filmstaden';
     case NO_GRIMSTAD_KULTURHUS = 'no-grimstad-kulturhus';
     case NO_RAKKESTAD_KULTURHUS = 'no-rakkestad-kulturhus';

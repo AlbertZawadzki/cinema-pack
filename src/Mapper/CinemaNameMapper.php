@@ -41,6 +41,7 @@ class CinemaNameMapper implements CinemaNameMapperInterface
             CinemaIdEnum::NL_PATHE => 'Pathe',
             CinemaIdEnum::NL_VUE => 'VUE',
             CinemaIdEnum::NL_KINEPOLIS => 'Kinepolis',
+            CinemaIdEnum::NL_CITYCINEMA => 'CityCinema',
 
             // Luxembourg
             CinemaIdEnum::LU_KINEPOLIS => 'Kinepolis',

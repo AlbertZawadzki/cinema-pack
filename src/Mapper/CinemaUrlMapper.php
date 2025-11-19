@@ -41,6 +41,7 @@ class CinemaUrlMapper implements CinemaUrlMapperInterface
             CinemaIdEnum::NL_PATHE => 'https://pathe.nl',
             CinemaIdEnum::NL_VUE => 'https://www.vuecinemas.nl',
             CinemaIdEnum::NL_KINEPOLIS => 'https://kinepolis.nl',
+            CinemaIdEnum::NL_CITYCINEMA => 'https://www.citycinema.nl/',
 
             // Luxembourg
             CinemaIdEnum::LU_KINEPOLIS => 'https://kinepolis.lu',

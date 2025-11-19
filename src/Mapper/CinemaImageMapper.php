@@ -41,6 +41,7 @@ class CinemaImageMapper implements CinemaImageMapperInterface
             CinemaIdEnum::NL_PATHE => 'pathe.png',
             CinemaIdEnum::NL_VUE => 'vue.png',
             CinemaIdEnum::NL_KINEPOLIS => 'kinepolis.png',
+            CinemaIdEnum::NL_CITYCINEMA => 'citycinema.png',
 
             // Luxembourg
             CinemaIdEnum::LU_KINEPOLIS => 'kinepolis.png',
