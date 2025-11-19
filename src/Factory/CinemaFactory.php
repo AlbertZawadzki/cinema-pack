@@ -2,7 +2,6 @@
 
 namespace CinemaPack\Factory;
 
-use CinemaPack\Contracts\CinemaCityMapperInterface;
 use CinemaPack\Contracts\CinemaCountryMapperInterface;
 use CinemaPack\Contracts\CinemaImageMapperInterface;
 use CinemaPack\Contracts\CinemaNameMapperInterface;
@@ -17,7 +16,6 @@ class CinemaFactory
         private readonly CinemaUrlMapperInterface     $urlMapper,
         private readonly CinemaImageMapperInterface   $imageMapper,
         private readonly CinemaCountryMapperInterface $countryMapper,
-        private readonly CinemaCityMapperInterface    $cityMapper,
     )
     {
     }
@@ -28,15 +26,13 @@ class CinemaFactory
         $url = $this->urlMapper->mapIdToUrl($id);
         $image = $this->imageMapper->mapIdToImageUrl($id);
         $country = $this->countryMapper->mapIdToCountry($id);
-        $cities = $this->cityMapper->mapIdToCities($id);
 
         return new CinemaDto(
             $id,
             $country,
             $name,
             $url,
-            $image,
-            $cities,
+            $image
         );
     }
 }
