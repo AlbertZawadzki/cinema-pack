@@ -13,6 +13,9 @@ class CinemaUrlMapper implements CinemaUrlMapperInterface
             // Sweden
             CinemaIdEnum::SE_FILMSTADEN => 'https://www.filmstaden.se',
 
+            // France
+            CinemaIdEnum::FR_LA_FILMOTHEQUE_DU_QUARTIER_LATIN => 'https://www.lafilmotheque.fr',
+
             // Norway
             CinemaIdEnum::NO_GRIMSTAD_KULTURHUS => 'https://www.grimstadkulturhus.no',
             CinemaIdEnum::NO_RAKKESTAD_KULTURHUS => 'https://rakkestadkulturhus.no',
@@ -41,7 +44,9 @@ class CinemaUrlMapper implements CinemaUrlMapperInterface
             CinemaIdEnum::NL_PATHE => 'https://pathe.nl',
             CinemaIdEnum::NL_VUE => 'https://www.vuecinemas.nl',
             CinemaIdEnum::NL_KINEPOLIS => 'https://kinepolis.nl',
-            CinemaIdEnum::NL_CITYCINEMA => 'https://www.citycinema.nl/',
+            CinemaIdEnum::NL_CITYCINEMA => 'https://www.citycinema.nl',
+            CinemaIdEnum::NL_GOTCHA => 'https://www.gotcha-weert.nl',
+            CinemaIdEnum::NL_DOK6 => 'https://www.dok6cinema.eu',
 
             // Luxembourg
             CinemaIdEnum::LU_KINEPOLIS => 'https://kinepolis.lu',

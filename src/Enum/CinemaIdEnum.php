@@ -6,6 +6,7 @@ enum CinemaIdEnum: string
 {
     case IS_BIO_PARADIS = 'is-bio-paradis';
     case DK_VUE = 'dk-vue';
+    case FR_LA_FILMOTHEQUE_DU_QUARTIER_LATIN = 'fr-ls-filmotheque-du-quartier-latin';
     case GB_BACKLOT = 'gb-the-backlot-cinema';
     case GB_ARC = 'gb-the-arc';
     case GB_THROWLEY_YARD = 'gb-throwley-yard-cinema';
@@ -45,6 +46,8 @@ enum CinemaIdEnum: string
     case NL_VUE = 'nl-vue';
     case NL_KINEPOLIS = 'nl-kinepolis';
     case NL_CITYCINEMA = 'nl-citycinema';
+    case NL_GOTCHA = 'nl-gotcha';
+    case NL_DOK6 = 'nl-dok6';
     case SE_FILMSTADEN = 'se-filmstaden';
     case NO_GRIMSTAD_KULTURHUS = 'no-grimstad-kulturhus';
     case NO_RAKKESTAD_KULTURHUS = 'no-rakkestad-kulturhus';

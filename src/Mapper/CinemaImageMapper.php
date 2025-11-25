@@ -13,6 +13,9 @@ class CinemaImageMapper implements CinemaImageMapperInterface
             // Sweden
             CinemaIdEnum::SE_FILMSTADEN => 'filmstaden.png',
 
+            // France
+            CinemaIdEnum::FR_LA_FILMOTHEQUE_DU_QUARTIER_LATIN => 'la-filmotheque-du-quartie-latin.png',
+
             // Norway
             CinemaIdEnum::NO_GRIMSTAD_KULTURHUS => 'grimstad-kulturhus.png',
             CinemaIdEnum::NO_RAKKESTAD_KULTURHUS => 'rakkestad-kulturhus.png',
@@ -42,6 +45,8 @@ class CinemaImageMapper implements CinemaImageMapperInterface
             CinemaIdEnum::NL_VUE => 'vue.png',
             CinemaIdEnum::NL_KINEPOLIS => 'kinepolis.png',
             CinemaIdEnum::NL_CITYCINEMA => 'citycinema.png',
+            CinemaIdEnum::NL_GOTCHA => 'gotcha.png',
+            CinemaIdEnum::NL_DOK6 => 'dok6.png',
 
             // Luxembourg
             CinemaIdEnum::LU_KINEPOLIS => 'kinepolis.png',

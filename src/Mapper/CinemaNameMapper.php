@@ -13,6 +13,9 @@ class CinemaNameMapper implements CinemaNameMapperInterface
             // Sweden
             CinemaIdEnum::SE_FILMSTADEN => 'Filmstaden',
 
+            // France
+            CinemaIdEnum::FR_LA_FILMOTHEQUE_DU_QUARTIER_LATIN => 'La Filmotheque du Quartier Latin',
+
             // Norway
             CinemaIdEnum::NO_GRIMSTAD_KULTURHUS => 'Grimstad kulturhus',
             CinemaIdEnum::NO_RAKKESTAD_KULTURHUS => 'Rakkestad Kulturhus',
@@ -42,6 +45,8 @@ class CinemaNameMapper implements CinemaNameMapperInterface
             CinemaIdEnum::NL_VUE => 'VUE',
             CinemaIdEnum::NL_KINEPOLIS => 'Kinepolis',
             CinemaIdEnum::NL_CITYCINEMA => 'CityCinema',
+            CinemaIdEnum::NL_GOTCHA => 'Gotcha!',
+            CinemaIdEnum::NL_DOK6 => 'DOK6 Cinema',
 
             // Luxembourg
             CinemaIdEnum::LU_KINEPOLIS => 'Kinepolis',
