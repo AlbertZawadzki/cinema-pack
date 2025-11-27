@@ -52,6 +52,7 @@ class CinemaImageMapper implements CinemaImageMapperInterface
             CinemaIdEnum::LU_KINEPOLIS => 'kinepolis.png',
 
             // Ireland
+            CinemaIdEnum::IE_BRIERY_GAP => 'briery-gap.png',
             CinemaIdEnum::IE_IMC => 'imc.png',
             CinemaIdEnum::IE_GATE_CINEMA => 'gate-cinema.png',
             CinemaIdEnum::IE_ARC_CINEMA => 'the-arc-cinema.png',

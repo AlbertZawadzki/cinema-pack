@@ -21,6 +21,7 @@ enum CinemaIdEnum: string
     case GB_VUE = 'gb-vue';
     case GB_SHOWCASE = 'gb-showcase';
     case GB_CINEWORLD = 'gb-cineworld';
+    case IE_BRIERY_GAP = 'ie-briery-gap';
     case IE_IMC = 'ie-imc-cinemas';
     case IE_GATE_CINEMA = 'ie-gate-cinema';
     case IE_ARC_CINEMA = 'ie-the-arc-cinema';

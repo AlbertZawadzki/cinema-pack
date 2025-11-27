@@ -52,6 +52,7 @@ class CinemaNameMapper implements CinemaNameMapperInterface
             CinemaIdEnum::LU_KINEPOLIS => 'Kinepolis',
 
             // Ireland
+            CinemaIdEnum::IE_BRIERY_GAP => 'Briery Gap',
             CinemaIdEnum::IE_IMC => 'IMC cinemas',
             CinemaIdEnum::IE_GATE_CINEMA => 'Gate Cinema',
             CinemaIdEnum::IE_ARC_CINEMA => 'The Arc Cinema',

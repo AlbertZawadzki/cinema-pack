@@ -52,6 +52,7 @@ class CinemaUrlMapper implements CinemaUrlMapperInterface
             CinemaIdEnum::LU_KINEPOLIS => 'https://kinepolis.lu',
 
             // Ireland
+            CinemaIdEnum::IE_BRIERY_GAP => 'https://www.brierygap.ie',
             CinemaIdEnum::IE_IMC => 'https://www.imccinemas.ie',
             CinemaIdEnum::IE_GATE_CINEMA => 'https://gatecinemas.com',
             CinemaIdEnum::IE_ARC_CINEMA => 'https://arccinema.ie',
